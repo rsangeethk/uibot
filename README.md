@@ -27,7 +27,7 @@ In UiBot, user can configure two types of settings to be validated in the crawle
 ![UIBotFlow](https://github.com/rsangeethk/uibot/blob/master/images/UIBot-Flow.PNG)
 
 ### Getting Started
-Download and extract the package from [Latest Release](https://github.com/rsangeethk/uibot/releases/tag) 
+Download and extract the package from [Latest Release](https://github.com/rsangeethk/uibot/releases/tag/1.1) 
 
  1. Open the uibot.jar file
  2. Select File > Open Folder > Select any empty folder
