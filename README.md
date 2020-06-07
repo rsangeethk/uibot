@@ -31,7 +31,7 @@ Download and extract the package from [Latest Release](https://github.com/rsange
 
  1. Open the uibot.jar file
  2. Select File > Open Folder > Select any empty folder
- 3. Select File > New. UiBot Setting windows will appear as below.
+ 3. Select File > New. UiBot Setting windows will appear.
  4. Configure the Website details and Browser settings in the appropriate fields and Click Add. New File will be created with file extension ``.uibot``
  5.  Select Validations Global Validations and the popup will be shown as below.
  6. Select Text Availability. Click Add button and Enter text value in to validate and Click Add Validation button
