@@ -9,6 +9,7 @@ UiBot combines the power of **Web Crawler** and **Selenium**. With home URL as i
  -  Support Text Validations, WebElement Presence Validation, Galen Spec Validation, W3C Standard validation, SSL validation.  
  - Validations can be Generic/Conditional
  - Robust page load wait to handle Angular/React Pages.
+ - Elegant Report generated for every execution
 
 ## Overview
 
