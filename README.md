@@ -8,7 +8,7 @@ UiBot combines the power of **Web Crawler** and **Selenium**. With home URL as i
  - Autonomous website validation with a single URL as input
  - Robust Web Crawler Algorithm (Without crossing legal hit count/seconds of Web server).
  -  Support Text Validations, WebElement Presence Validation, Galen Spec Validation, W3C Standard validation, SSL validation.  
- - Validations can be Generic/Conditional
+ - Validations can be Global/Conditional
  - Robust page load wait to handle Angular/React Pages.
  - Elegant Report for every execution
  - Execution can be done in Browsers, Devices and Cloud labs
@@ -19,7 +19,7 @@ UiBot combines the power of **Web Crawler** and **Selenium**. With home URL as i
 ### Selenium Validations
 In UiBot, user can configure two types of settings to be validated in the crawled webpages.
 
- - Generic Validations - Set of validations that will be performed in all crawled/identified webpages. (**Ex:** Galen Spec Validation of Headers)
+ - Global Validations - Set of validations that will be performed in all crawled/identified webpages. (**Ex:** Galen Spec Validation of Headers in all crawled webpages)
  - Conditional Validations - Set of validations that will be performed in a webpage only if the user configured conditions matches that webpage. (**Ex:** Presence of Login form If Title contains Login)
 
 ### Workflow
