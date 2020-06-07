@@ -1,4 +1,5 @@
-# UiBot - Selenium + Crawler
+
+# ![Logo](https://github.com/rsangeethk/uibot/blob/master/src/favicon-32x32.png)  UiBot - Selenium + Crawler
 
 UiBot combines the power of **Web Crawler** and **Selenium**. With home URL as input UiBot can crawl into the static webpages in the site and do the Pre-configured validation using Selenium.
 
@@ -10,6 +11,7 @@ UiBot combines the power of **Web Crawler** and **Selenium**. With home URL as i
  - Validations can be Generic/Conditional
  - Robust page load wait to handle Angular/React Pages.
  - Elegant Report for every execution
+ - Execution can be done in Browsers, Devices and Cloud labs
 
 ## Overview
 
@@ -23,3 +25,14 @@ In UiBot, user can configure two types of settings to be validated in the crawle
 ### Workflow
 
 ![UIBotFlow](https://github.com/rsangeethk/uibot/blob/master/images/UIBot-Flow.PNG)
+
+### Getting Started
+Download and extract the package from [Latest Release](https://github.com/rsangeethk/uibot/releases/tag) 
+
+ 1. Open the uibot.jar file
+ 2. Select File > Open Folder > Select any empty folder
+ 3. Select File > New. UiBot Setting windows will appear as below.
+ 4. Configure the Website details and Browser settings in the appropriate fields and Click Add. New File will be created with file extension ``.uibot``
+ 5.  Select Validations Global Validations and the popup will be shown as below.
+ 6. Select Text Availability. Click Add button and Enter text value in to validate and Click Add Validation button
+ 7. Click Run. The Execution will be started for configured text validation as per Configured Website and browser settings.
