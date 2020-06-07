@@ -20,3 +20,6 @@ In UiBot, user can configure two types of settings to be validated in the crawle
  - Generic Validations - Set of validations that will be performed in all crawled/identified webpages. (**Ex:** Galen Spec Validation of Headers)
  - Conditional Validations - Set of validations that will be performed in a webpage only if the user configured conditions matches that webpage. (**Ex:** Presence of Login form If Title contains Login)
 
+### Workflow
+
+![UIBotFlow](https://github.com/rsangeethk/uibot/blob/master/images/UIBot-Flow.PNG)
