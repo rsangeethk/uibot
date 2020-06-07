@@ -26,6 +26,7 @@ import java.util.EnumSet;
 import java.util.prefs.Preferences;
 
 import javax.servlet.DispatcherType;
+import javax.swing.ImageIcon;
 import javax.swing.JFileChooser;
 import javax.swing.JFrame;
 import javax.swing.JLabel;
@@ -157,7 +158,7 @@ public class MainUI extends JFrame {
        public MainUI() {
               super("Java Frame");
               setTitle("UI Bot");
-              setIconImage(Toolkit.getDefaultToolkit().getImage(MainUI.class.getResource("../../favicon-32x32.png")));
+              setIconImage(new ImageIcon(getClass().getClassLoader().getResource("favicon-32x32.png")).getImage());
               setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
               setBounds(0, 0, dim.width/2, dim.height/2);
               //setLocation(dim.width/2- getSize().width/2, dim.height/2-getSize().height/2);
