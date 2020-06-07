@@ -1,0 +1,101 @@
+{
+	 "selenium-settings": 
+        {
+        	"firefox": {
+        		"binary": "",
+	            "driver": "",
+	            "headless" : false
+        	},
+        	"chrome": {
+        		"binary": "",
+	            "driver": ""
+        	},
+        	"ie": {
+        		"binary": "",
+	            "driver": ""
+        	}
+        },
+    "craw-test":
+	    {
+	    	"name":""
+	    },
+        
+    "website-details": 
+    	{
+	        "URL": "",
+	        "type":"",
+	      	"header-element": 
+		        {
+		        	"by" : "",
+		        	"selector" : ""
+		        },
+		    "footer-element": 
+		        {
+		        	"by" : "",
+		        	"selector" : ""
+		        },
+		    "content-element": 
+		        {
+		        	"by" : "",
+		        	"selector" : ""
+		        },
+		     "invisibility-element" :
+			    {
+			     	"by" : "xpath",
+		        	"selector" : ".//*[@class='blockUI blockOverlay']"
+			    },
+			 "login-url" : "",
+			 "selective-pages" :
+		     	[
+					     	
+				]
+    	},
+   
+    "exceptions":
+	    {
+	    	"link-names": 
+	    		[
+	    			"Log Out"
+	    		],
+	    		
+	    	"link-urls": 
+	    		[
+	    			
+	    		]
+	    },
+	  
+	"validate":
+		{
+			"text" : true,
+			"element" : true,
+			"galen" : true,
+			"selective-pages" : false 
+		},
+	
+	"validation-settings":
+		{
+			"text": 
+				[
+					"unavailable",
+					"not available"
+				],
+			"element" : 
+				[
+					{
+			        	"by" : "class",
+			        	"selector" : "header-brand"
+			        },
+			        {
+			        	"by" : "xpath",
+			        	"selector" : "//ol"
+			        }
+		        ],
+		     "galen-specs":
+		     	[
+		     		{
+		     			"name" : "",
+		     			"file" : ""
+		     		}
+		     	]
+		}
+}
